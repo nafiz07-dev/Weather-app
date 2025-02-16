@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", serif;
+}
+
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.back-video-continer {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.back-video {
+}
+
+.continer {
+  transition: all .2s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 4rem 1.5rem;
+  border-radius: 1rem;
+
+   /* background: rgba(255, 255, 255, 0.1); */
+  backdrop-filter: blur(1rem);
+
+   /* border code- */
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all .2s;
+}
+
+.rest-warper {
+  transition: all .2s;
+
+  color: black;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+
+  display: none;
+}
+
+.error {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+
+  display: none;
+}
+
+.Loading {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.input {
+display: flex;
+}
+
+.search {
+  font-size: 1.3rem;
+  padding: .6rem 1rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  transition: all .2s;
+  margin-left: 5px;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:active {
+  
+  transform: scale(0.9);
+}
+
+.tempreture {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  padding: .2rem 0 1.3rem 0;
+}
+
+.weather-icon {
+  padding-top: 1.2rem;
+}
+
+.weather-icon-img {
+
+}
+
+.status {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tempreture-cr {
+  font-weight: 600;
+}
+
+.status-txt {
+  font-weight: 600;
+  
+}
+
+.details {
+  font-size: 1.5rem;
+  padding: 2rem 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: wheat;
+}
+
+.humidity {
+
+}
+
+.humidity-percentage {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.windSpeed {
+}
+
+.windSpeed-km {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.city {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.city-name {
+  font-weight: 600;
+}
+

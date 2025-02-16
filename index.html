@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <video loop autoplay muted class="back-video-continer">
+      <source src="/Videos/rain.mp4" type="video/mp4" class="back-video" />
+    </video>
+    <div class="continer">
+      <form class="input">
+        <input placeholder="Type Your City" class="search" />
+        <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </form>
+      <p class="error">Invalid City Name</p>
+      <p class="Loading">Loading...</p>
+      <div class="rest-warper">
+        <div class="city"><span class="city-name"></span></div>
+        <div class="weather-icon"></div>
+        <div class="tempreture"><span class="tempreture-cr"></span></div>
+        <div class="status"><span class="status-txt"></span></div>
+        <div class="details">
+          <div class="humidity-percentage">
+            <!-- <span class=""></span> -->
+          </div>
+          <div class="windSpeed-km"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
